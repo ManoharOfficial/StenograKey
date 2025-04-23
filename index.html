@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>StenograKey</title>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+        <!-- application styles -->
+        <link type="text/css" charset="utf-8" rel="stylesheet" href="css/app.css" />
+
+        <!-- application scripts -->
+        <script src="js/lib/underscore.min.js"></script>
+        <script src="js/lib/jquery.min.js"></script>
+        <script src="js/lib/backbone.min.js"></script>
+        <script src="js/app.js"></script>
+        <!-- used for remote logging, see jsconsole.com
+        example: <script src="http://jsconsole.com/remote.js?12345678-ABCDEFG-1234567890"></script>
+        -->
+
+    </head>
+    <body>
+        <div id="app"></div>
+        <div class="button show-instructions js-hover">instructions</div>
+        <div id="instructions" class="js-scroll">
+            <div class="button close js-hover">close</div>
+            <h1>StenograKey</h1>
+            <p>A one-handed touch screen, customisable, ergonomic keyboard, intended for Stenographers and Physically Challenged individuals.</p>
+            
+            <h2>Instructions</h2>
+            <p>Touch to start character selection. Slide along the axis to select a character. Release to type the character (a quick tap will type the *resting on* character.)</p>
+
+            <h3>Character sets</h3>
+            <p>From top to bottom. The *resting on* character is the one the slider starts on. With the fingers you can slide up two characters and down for the rest.</p>
+            <p>TTap *peek* to show line-guides and slide directions after setting all fingers.</p>
+
+            <h4>Thumb</h4>
+            <ul>
+                <li><strong>Enter</strong></li>
+                <li><strong>Backspace</strong></li>
+                <li><strong>Space</strong> (resting on)</li>
+            </ul>
+
+            <h4>Second</h4>
+            <ul>
+                <li><strong>a</strong> to <strong>g</strong></li>
+                <li>resting on: <strong>c</strong></li>
+            </ul>
+
+            <h4>Third</h4>
+            <ul>
+                <li><strong>h</strong> to <strong>n</strong></li>
+                <li>resting on: <strong>j</strong></li>
+            </ul>
+
+            <h4>Fourth</h4>
+            <ul>
+                <li><strong>o</strong> to <strong>t</strong></li>
+                <li>resting on: <strong>q</strong></li>
+            </ul>
+
+            <h4>Fifth</h4>
+            <ul>
+                <li><strong>u</strong> to <strong>z</strong></li>
+                <li>resting on: <strong>w</strong></li>
+            </ul>
+        </div>
+    </body>
+</html>
