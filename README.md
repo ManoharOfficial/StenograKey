@@ -50,3 +50,5 @@ From top to bottom. The *resting on* character is the one the slider starts on. 
 
 - *u* to *z*
 - resting on: *w*
+
+Try it out here : https://manoharofficial.github.io/StenograKey/
